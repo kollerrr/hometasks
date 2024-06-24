@@ -21,7 +21,7 @@ def t2(dir: str, num: int):
     Создайте программу создающую папку dir внутри которой еще num папок,
     имена которых цифры от 1 до num
     """
-    os.mkdir(r'C:\Users\user\Downloads\Python-2-1-main\python-2-2-kollerrr\python-2-1-kollerrr\dir')
+    os.mkdir(r'C:\Code VS\python-2-2-cxZvezdochet')
     num = int(input())
 
     for num in (1, num):
@@ -37,9 +37,9 @@ def t3(dir: str, name: str):
     Напишите программу-вирус, которая переименовывает папки c четными номерами 
     в ранее созданной папке dir, новые имена должны начинаться со строки name.
     """
-    dir = r'C:\Users\user\Downloads\Python-2-1-main\python-2-2-kollerrr\python-2-1-kollerrr'
+    dir = r'C:\Code VS\python-2-2-cxZvezdochet'
     name = 'name'
-    os.mkdir(os.path.join(r'C:\Users\user\Downloads\Python-2-1-main\python-2-2-kollerrr\python-2-1-kollerrr'), 'dir')
+    os.mkdir(os.path.join(r'C:\Code VS\python-2-2-cxZvezdochet'), 'dir')
 
     for item in (os.listdir + 1):
     
@@ -57,8 +57,8 @@ def t4(dir: str, text: str):
     текст text в файл answer.txt
     """
 
-    dir = r'C:\Users\user\Downloads\Python-2-1-main\python-2-2-kollerrr\python-2-1-kollerrr'
-    os.mkdir(os.path.join(r'C:\Users\user\Downloads\Python-2-1-main\python-2-2-kollerrr\python-2-1-kollerrr'), 'dir')
+    dir = r'C:\Code VS\python-2-2-cxZvezdochet'
+    os.mkdir(os.path.join(r'C:\Code VS\python-2-2-cxZvezdochet'), 'dir')
 
     arg1 = "text"
     arg2 = "answer.txt"
