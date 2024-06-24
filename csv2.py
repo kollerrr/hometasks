@@ -76,7 +76,7 @@ def get_min_score_difference(filename):
         min_team = None
         for row in parse_next_line(f):
             team, diff = get_name_and_diff(row)
-            if dif < min_diff:
+            if diff < min_diff:
                 min_diff = diff
                 min_team = team 
     return min_team, min_diff
